@@ -1,0 +1,43 @@
+{
+  "name": "trio-rsh",
+  "version": "1.0.0",
+  "main": "server/server.js",
+   "engines": {
+    "node": "10.15.3",
+    "npm": "6.9.0"
+ },
+  "scripts": {
+    "pretest": "jshint .",
+    "postinstall": "bower install && ./node_modules/.bin/gulp"
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "errorhandler": "^1.1.1",
+    "express": "^4.11.1",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-sass": "^2.1.0",
+    "loopback": "^2.8.0",
+    "loopback-boot": "^2.4.0",
+    "loopback-component-storage": "^1.0.6",
+    "loopback-connector-mongodb": "^1.4.5",
+    "loopback-datasource-juggler": "^2.7.0",
+    "serve-favicon": "^2.0.1",
+    "storage": "^0.2.0",
+    "strongloop": "^6.0.3"
+  },
+  "optionalDependencies": {
+    "loopback-explorer": "^2.0.2"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.6",
+    "gulp": "^3.8.8",
+    "gulp-bower": "0.0.13",
+    "gulp-concat": "^2.4.1",
+    "gulp-minify": "0.0.14",
+    "gulp-recess": "^1.0.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.1",
+    "gulp-watch": "^4.3.10"
+  }
+}

@@ -1,0 +1,9 @@
+version: "3.4"
+
+services:
+  mongo:
+    image: 'bitnami/mongodb:latest'
+    ports:
+      - "27017:27017"
+    volumes:
+      - /var/data/mongodb

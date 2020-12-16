@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "westsidetrio",
+      "script": "./server/server.js",
+      "watch": ["./server", "./client", "./common"],
+      "instances": 1,
+      "exec_mode": "fork",
+      "watch_options": {
+        "persistent": true,
+        "ignoreInitial": false
+      }
+    }
+  ]
+}
